@@ -1,0 +1,72 @@
+.app{
+  background-color: #293949;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.content {
+  padding: 7em;
+  background-color: #23313d;
+  border-radius: 2em;
+}
+
+.folder {
+  margin-top: 6px;
+  background-color: rgb(130, 130, 130);
+  border-radius: 0.3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 0.5em;
+  width: 300px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.inputContainer{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputContainer>span{
+  margin-top: 5px;
+}
+
+.inputContainer__input {
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  border: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.folder > span {
+  margin: 0 5px;
+}
+
+.folder > div > button {
+  font-size: 0.83em;
+  font-weight: 700;
+  padding: 0.5em;
+  background-color: rgb(210, 212, 211);
+  border-radius: 0.5em;
+}
+
+.file {
+  margin-top: 5px;
+  padding: 0.5em 0.5em;
+  display: flex;
+  background-color: #575757;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+}
